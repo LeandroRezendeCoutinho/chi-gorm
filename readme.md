@@ -4,8 +4,8 @@ Simple implementation REST API for Chi with GORM
 
 ## Explaining test
 - Use benchmarck tool in route /dogs
+    - `autocannon http://localhost:3000/dogs`
 - Populate database with 10 records
-
 ```curl
 curl --location --request GET 'localhost:3000/dogs' \
 --header 'Content-Type: application/json' \
